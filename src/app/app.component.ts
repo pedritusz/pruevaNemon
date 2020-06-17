@@ -72,7 +72,7 @@ export class AppComponent implements OnInit {
       const input3 = inputs[2];
       this.service.saveOperation(name, input1, input2, input3)
     } else {
-      alert('please add name')
+      alert('rellena todos los campos')
     }
   }
 
